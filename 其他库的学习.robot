@@ -2,7 +2,7 @@
 Library    Screenshot    
 Library    Collections
 Resource   D:/robot/RF-demo/业务关键字.txt
-Variables  test.py
+Variables    test.py
 
 
 #设置全局变量

@@ -69,6 +69,9 @@ RF的For循环
     ${return_msg}    for_test    10    1    
     Log    ${return_msg}     
     
+测试断言
+    Should Be Equal    1    2        
+        
 *** Keyword ***
 for_test
     #传递参数
