@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20181007 11:00:53.611" generator="Robot 3.1a2 (Python 2.7.10 on win32)">
+<suite source="D:\robot\RF-demo" id="s1" name="RF-demo">
+<suite source="D:\robot\RF-demo\first-RF.robot" id="s1-s1" name="first-RF">
+<test id="s1-s1-t1" name="测试断言">
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>1</arg>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20181007 11:00:53.712" level="FAIL">1 != 2</msg>
+<status status="FAIL" endtime="20181007 11:00:53.713" starttime="20181007 11:00:53.711"></status>
+</kw>
+<status status="FAIL" endtime="20181007 11:00:53.713" critical="yes" starttime="20181007 11:00:53.695">1 != 2</status>
+</test>
+<status status="FAIL" endtime="20181007 11:00:53.715" starttime="20181007 11:00:53.686"></status>
+</suite>
+<status status="FAIL" endtime="20181007 11:00:53.717" starttime="20181007 11:00:53.651"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="RF-demo" pass="0">RF-demo</stat>
+<stat fail="1" id="s1-s1" name="first-RF" pass="0">RF-demo.first-RF</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
